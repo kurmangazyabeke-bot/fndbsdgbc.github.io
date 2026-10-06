@@ -1,0 +1,49 @@
+import * as React from 'react';
+import { clsx, type ClassValue } from 'clsx';
+import { twMerge } from 'tailwind-merge';
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+export const Card = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+  ({ className, ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cn(
+        'rounded-3xl border border-slate-200/80 bg-white p-6 shadow-soft-sm transition-all hover:shadow-soft-md dark:border-slate-800 dark:bg-slate-900',
+        className
+      )}
+      {...props}
+    />
+  )
+);
+Card.displayName = 'Card';
+
+export const CardHeader = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+  ({ className, ...props }, ref) => (
+    <div ref={ref} className={cn('flex flex-col space-y-1.5 pb-4', className)} {...props} />
+  )
+);
+CardHeader.displayName = 'CardHeader';
+
+export const CardTitle = React.forwardRef<HTMLHeadingElement, React.HTMLAttributes<HTMLHeadingElement>>(
+  ({ className, ...props }, ref) => (
+    <h3 ref={ref} className={cn('text-xl font-black tracking-tight text-slate-900 dark:text-white', className)} {...props} />
+  )
+);
+CardTitle.displayName = 'CardTitle';
+
+export const CardDescription = React.forwardRef<HTMLParagraphElement, React.HTMLAttributes<HTMLParagraphElement>>(
+  ({ className, ...props }, ref) => (
+    <p ref={ref} className={cn('text-xs font-medium text-slate-500 dark:text-slate-400', className)} {...props} />
+  )
+);
+CardDescription.displayName = 'CardDescription';
+
+export const CardContent = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+  ({ className, ...props }, ref) => (
+    <div ref={ref} className={cn('pt-0', className)} {...props} />
+  )
+);
+CardContent.displayName = 'CardContent';

@@ -18,7 +18,7 @@ import {
 import { DEMO_STUDENTS } from '@/lib/data/demoData';
 
 export function StudentResultsView() {
-  const currentStudent = DEMO_STUDENTS[0]; // Айдос Нұрланұлы
+  const currentStudent = DEMO_STUDENTS[0]; // Бекарыс Нұрланұлы
 
   return (
     <div className="space-y-6">

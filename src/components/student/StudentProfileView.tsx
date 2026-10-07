@@ -10,7 +10,7 @@ export function StudentProfileView() {
     <div className="space-y-6 max-w-2xl">
       <div>
         <h2 className="text-2xl font-black tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
-          <User className="h-6 w-6 text-emerald-600" /> Оқушы Профилі (Айдос)
+          <User className="h-6 w-6 text-emerald-600" /> Оқушы Профилі (Бекарыс)
         </h2>
         <p className="text-xs text-slate-500 font-medium mt-1">
           Жеке деректер, геймификация мен оқу деңгейі.
@@ -23,8 +23,8 @@ export function StudentProfileView() {
             👦
           </div>
           <div>
-            <h4 className="font-extrabold text-slate-900 dark:text-white text-xl">Айдос Нұрланұлы</h4>
-            <p className="text-xs text-slate-400 font-semibold">2-А Сынып оқушысы • №15 Мектеп</p>
+            <h4 className="font-extrabold text-slate-900 dark:text-white text-xl">Бекарыс Нұрланұлы</h4>
+            <p className="text-xs text-slate-400 font-semibold">4-А Сынып оқушысы • №175 IT Лицейі</p>
           </div>
         </div>
 

@@ -371,7 +371,7 @@ export function AuthModal() {
                   onClick={() => handleQuickDemo('student', 'aidos')}
                   className="rounded-xl border-emerald-200 bg-emerald-50/50 hover:bg-emerald-100 text-emerald-800 dark:border-emerald-900 dark:bg-emerald-950/30 dark:text-emerald-300 text-xs font-bold py-2"
                 >
-                  🧒 Айдос (2 «А»)
+                  🧒 Бекарыс (4 «А»)
                 </Button>
                 <Button
                   type="button"

@@ -48,13 +48,13 @@ export const DEMO_TEACHER: AuthUser = {
 // Default Student Demo Accounts
 export const DEMO_STUDENT_AIDOS: AuthUser = {
   id: 'usr-student-aidos-02',
-  email: 'aidos.student@mathqadam.kz',
+  email: 'bekarys.student@mathqadam.kz',
   phone: '+7 701 555 4321',
-  fullName: 'Айдос Нұрлан',
+  fullName: 'Бекарыс Нұрлан',
   role: 'student',
-  studentCode: 'AIDO-882',
-  gradeLevel: 2,
-  className: '2 «А» сыныбы',
+  studentCode: 'BEKA-882',
+  gradeLevel: 4,
+  className: '4 «А» сыныбы',
   avatarUrl: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80',
 };
 

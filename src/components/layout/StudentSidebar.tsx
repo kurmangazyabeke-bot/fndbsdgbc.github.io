@@ -67,7 +67,7 @@ export function StudentSidebar() {
             👦
           </div>
           <div>
-            <div className="text-xs font-black text-slate-900 dark:text-white">Айдос Нұрланұлы</div>
+            <div className="text-xs font-black text-slate-900 dark:text-white">Бекарыс Нұрланұлы</div>
             <div className="text-[10px] text-emerald-700 dark:text-emerald-300 font-bold flex items-center gap-1">
               <Flame className="h-3 w-3 text-amber-500 fill-amber-500" /> 7 Күн Стрик • 850 XP
             </div>

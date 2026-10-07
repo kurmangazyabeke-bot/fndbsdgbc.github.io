@@ -193,9 +193,9 @@ export function getInitial6StageRoadmap(): RoadmapStage[] {
           id: 'd5-1',
           skillId: 'skill_word_problems',
           topicKaz: 'Мәтіндік есеп',
-          grade: 2,
+          grade: 4,
           difficulty: 3.0,
-          questionKaz: 'Айдоста 28 кітап бар еді. Оған тағы 15 кітап сыйлады. Барлығы неше кітап болды?',
+          questionKaz: 'Бекарыста 28 кітап бар еді. Оған тағы 15 кітап сыйлады. Барлығы неше кітап болды?',
           correctAnswer: '43',
           options: ['43', '33', '42', '53'],
           explanations: {}

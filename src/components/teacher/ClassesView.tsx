@@ -61,7 +61,7 @@ export function ClassesView() {
       hardestSkillScore: 46,
       classJoinCode: 'MQ-4A-8921',
       students: [
-        { id: 'cs-1', name: 'Айдос Нұрлан', studentCode: 'AIDO-882', mastery: 82 },
+        { id: 'cs-1', name: 'Бекарыс Нұрлан', studentCode: 'BEKA-882', mastery: 82 },
         { id: 'cs-2', name: 'Жандос Тұрсынов', studentCode: 'JAND-491', mastery: 69 },
         { id: 'cs-3', name: 'Аружан Болатбек', studentCode: 'ARUZ-720', mastery: 94 },
         { id: 'cs-4', name: 'Мадина Қайрат', studentCode: 'MADI-318', mastery: 48 },
@@ -458,7 +458,7 @@ export function ClassesView() {
                 <label className="text-slate-600 dark:text-slate-300">Оқушының Толық Аты-Жөні:</label>
                 <input
                   type="text"
-                  placeholder="Мысалы: Айдос Нұрланұлы"
+                  placeholder="Мысалы: Бекарыс Нұрланұлы"
                   value={newStudentName}
                   onChange={(e) => setNewStudentName(e.target.value)}
                   className="w-full rounded-2xl border border-slate-200 p-3 font-bold text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:border-slate-700 dark:bg-slate-800"

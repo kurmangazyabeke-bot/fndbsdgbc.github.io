@@ -57,11 +57,11 @@ export function StudentDashboardView({ onNavigate }: StudentDashboardViewProps) 
               <span aria-hidden="true">👋</span>
               <span>Оқушы Кабинеті</span>
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-300" aria-hidden="true" />
-              <span className="text-amber-300 font-extrabold">2-Сынып</span>
+              <span className="text-amber-300 font-extrabold">4-Сынып</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white drop-shadow-sm">
-              «Сәлем, Айдос!»
+              «Сәлем, Бекарыс!»
             </h1>
 
             <p className="text-sm sm:text-base text-emerald-50 font-bold leading-relaxed">
@@ -320,7 +320,7 @@ export function StudentDashboardView({ onNavigate }: StudentDashboardViewProps) 
         <Card className="rounded-3xl p-6 sm:p-8 shadow-soft-xs border border-slate-200/80 space-y-4">
           <div className="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-800">
             <h4 className="font-black text-slate-900 dark:text-white text-base sm:text-lg flex items-center gap-2">
-              <Award className="h-6 w-6 text-indigo-600" aria-hidden="true" /> Айдостың Бейдждері
+              <Award className="h-6 w-6 text-indigo-600" aria-hidden="true" /> Бекарыстың Бейдждері
             </h4>
             <Button
               variant="ghost"

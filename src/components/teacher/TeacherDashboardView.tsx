@@ -200,7 +200,7 @@ export function TeacherDashboardView() {
                 «4 «А» сыныбында 6 оқушы разрядтан аттап азайту тақырыбында қиындық көрсетуде.»
               </h4>
               <p className="text-xs text-slate-600 dark:text-slate-300 font-medium leading-relaxed">
-                Оқушылардың көбі (Айдос, Жандос, Мадина т.б.) 1 ондықты 10 бірлікке ыдыратудың орнына үлкен саннан кіші санды азайта салу қатесін жіберуде.
+                Оқушылардың көбі (Бекарыс, Жандос, Мадина т.б.) 1 ондықты 10 бірлікке ыдыратудың орнына үлкен саннан кіші санды азайта салу қатесін жіберуде.
               </p>
             </div>
             <div className="pt-2 flex justify-between items-center border-t border-slate-100 dark:border-slate-800">
@@ -269,7 +269,7 @@ export function TeacherDashboardView() {
                 <span className="text-xs font-black text-purple-600">Жеке маршрут</span>
               </div>
               <h4 className="font-black text-slate-900 dark:text-white text-sm leading-snug">
-                «Айдос пен Жандосқа 10 минуттық жеке микро-тренажер ұсынылды.»
+                «Бекарыс пен Жандосқа 10 минуттық жеке микро-тренажер ұсынылды.»
               </h4>
               <p className="text-xs text-slate-600 dark:text-slate-300 font-medium leading-relaxed">
                 Екі оқушының ZPD көрсеткіші 2.5-тен 1.5-ке бейімделіп, қадамдық ыдырату алгоритмін бекіту үшін жеке тапсырмалар генерацияланды.

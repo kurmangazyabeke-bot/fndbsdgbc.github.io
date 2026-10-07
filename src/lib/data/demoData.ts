@@ -4,7 +4,7 @@
  * Бірінші іске қосылғанда жүйені толыққанды педагогикалық деректермен қамтамасыз етеді:
  * 1. Demo Teacher: «Мұғалім» (Айгүл Серікқызы)
  * 2. Demo Class: 4 «А» сыныбы (24 оқушы, орташа 71%)
- * 3. 5 Demo Students: Айдос, Жандос, Аружан, Мадина, Нұрислам (әртүрлі mastery & mistake patterns)
+ * 3. 5 Demo Students: Бекарыс, Жандос, Аружан, Мадина, Нұрислам (әртүрлі mastery & mistake patterns)
  * 4. 7 Demo Skills: Сан құрамы, Салыстыру, Қосу, Азайту, Разрядтан аттап қосу, Разрядтан аттап азайту, Мәтіндік есеп
  */
 
@@ -76,11 +76,11 @@ export const DEMO_SKILLS: DemoSkillItem[] = [
 
 // 5 DEMO STUDENTS
 export const DEMO_STUDENTS: DemoStudentItem[] = [
-  // 1. АЙДОС НҰРЛАН
+  // 1. БЕКАРЫС НҰРЛАН
   {
     id: 'st-aidos',
-    name: 'Айдос Нұрлан',
-    studentCode: 'AIDO-882',
+    name: 'Бекарыс Нұрлан',
+    studentCode: 'BEKA-882',
     pinCode: '1234',
     classGrade: '4 «А» сыныбы',
     overallMastery: 82,

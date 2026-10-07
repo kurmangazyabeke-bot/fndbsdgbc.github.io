@@ -290,7 +290,7 @@ export function PedagogicalWowFlowModal({ isOpen, onClose }: PedagogicalWowFlowM
                 <Badge variant="danger" className="text-xs font-black uppercase px-3 py-1">
                   1-ҚАДАМ: Бастапқы Сигнал
                 </Badge>
-                <span className="text-xs text-slate-400 font-bold">Оқушы: Айдос (2-Сынып)</span>
+                <span className="text-xs text-slate-400 font-bold">Оқушы: Бекарыс (4-Сынып)</span>
               </div>
 
               <div className="text-center space-y-2 max-w-xl mx-auto">
@@ -334,7 +334,7 @@ export function PedagogicalWowFlowModal({ isOpen, onClose }: PedagogicalWowFlowM
               </div>
 
               <div className="p-4 rounded-2xl bg-rose-50/70 border border-rose-200 text-rose-900 dark:bg-rose-950/30 dark:border-rose-900 dark:text-rose-200 text-xs text-center font-bold">
-                ⚠️ Айдос <strong>«44»</strong> деп жауап берді (Ондықтан қарыз алмады: 5-1=4, 8-2=6 деп есептеді).
+                ⚠️ Бекарыс <strong>«44»</strong> деп жауап берді (Ондықтан қарыз алмады: 5-1=4, 8-2=6 деп есептеді).
               </div>
             </div>
           )}
@@ -470,7 +470,7 @@ export function PedagogicalWowFlowModal({ isOpen, onClose }: PedagogicalWowFlowM
 
               <div>
                 <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
-                  Айдостың Дағдылар Профилі Жаңартылды:
+                  Бекарыстың Дағдылар Профилі Жаңартылды:
                 </h3>
                 <p className="text-xs text-slate-500 font-medium mt-1">
                   «Разрядтан аттап азайту» дағдысы қызыл қауіпті аймаққа түсті.
@@ -683,7 +683,7 @@ export function PedagogicalWowFlowModal({ isOpen, onClose }: PedagogicalWowFlowM
 
               <div>
                 <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
-                  Айдос қадамдық интерактивті жаттығуларды орындады:
+                  Бекарыс қадамдық интерактивті жаттығуларды орындады:
                 </h3>
               </div>
 
@@ -792,7 +792,7 @@ export function PedagogicalWowFlowModal({ isOpen, onClose }: PedagogicalWowFlowM
                   <span>AI Тәлімгердің Педагогикалық Шешімі:</span>
                 </div>
                 <p className="text-xs sm:text-sm text-indigo-100 font-medium leading-relaxed">
-                  «Оқушы Айдос Нұрланұлы разрядтан 1 ондықты қарызға алып, оны 10 бірлікке ыдырату механизмін толық түсінді. Қатені қайталау ықтималдығы 4%-тен төмен. Келесі аптада 3 таңбалы сандарды (152 - 78) азайтуға көшу ұсынылады.»
+                  «Оқушы Бекарыс Нұрланұлы разрядтан 1 ондықты қарызға алып, оны 10 бірлікке ыдырату механизмін толық түсінді. Қатені қайталау ықтималдығы 4%-тен төмен. Келесі аптада 3 таңбалы сандарды (152 - 78) азайтуға көшу ұсынылады.»
                 </p>
 
                 <div className="pt-2 border-t border-white/10 space-y-2 text-xs font-bold text-slate-300">

@@ -187,7 +187,7 @@ export class AIPipelineOrchestrator {
     const borrowScore = isError ? 32 : 85;
     const skillProfile: SkillProfileState = {
       studentId: 'demo-student-aidos',
-      studentName: 'Айдос Нұрланұлы',
+      studentName: 'Бекарыс Нұрланұлы',
       classGrade: '4 «А»',
       overallMastery: isError ? 58 : 82,
       baselineMastery: 35,
@@ -350,7 +350,7 @@ export class AIPipelineOrchestrator {
         'Қатені қайталау ықтималдығы 4%-тен төмендеді.',
       ],
       parentSummaryKaz:
-        'Айдос разрядтан аттап азайтуда 1 ондықты 10 бірлікке айналдыру алгоритмін 100% меңгерді. Нәтижесі 32%-тен 88%-ке өсті!',
+        'Бекарыс разрядтан аттап азайтуда 1 ондықты 10 бірлікке айналдыру алгоритмін 100% меңгерді. Нәтижесі 32%-тен 88%-ке өсті!',
     };
 
     return {

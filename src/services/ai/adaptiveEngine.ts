@@ -108,7 +108,7 @@ export function adaptiveEngine(input: AdaptiveEngineInput): AdaptiveEngineOutput
     supportLevel = 'low';
     explanationMode = 'STORY';
     levelTitleKaz = '3-деңгей — Контекст';
-    levelDescriptionKaz = 'Математиканы өмірлік сюжеттік мәтіндік есеп (Айдоста 47 теңге болды...) арқылы қолдану.';
+    levelDescriptionKaz = 'Математиканы өмірлік сюжеттік мәтіндік есеп (Бекарыста 47 теңге болды...) арқылы қолдану.';
     nextSkill = 'skill_word_problems';
   } else {
     nextLevel = 4;
@@ -116,7 +116,7 @@ export function adaptiveEngine(input: AdaptiveEngineInput): AdaptiveEngineOutput
     supportLevel = 'none';
     explanationMode = 'SOCRATIC';
     levelTitleKaz = '4-деңгей — Күрделі';
-    levelDescriptionKaz = 'Жанама мәтіндік және кері амалдарды талап етеді (Айдоста 75 теңгеден 47 қалды...).';
+    levelDescriptionKaz = 'Жанама мәтіндік және кері амалдарды талап етеді (Бекарыста 75 теңгеден 47 қалды...).';
     nextSkill = 'skill_word_problems';
   }
 
@@ -192,9 +192,9 @@ export function getTaskForLevel(level: 1 | 2 | 3 | 4): MathProblem {
         id: 'adapt-lvl-3',
         skillId: 'skill_word_problems',
         topicKaz: 'Екі таңбалы сандарды қосу (3-деңгей: Контекст)',
-        grade: 2,
+        grade: 4,
         difficulty: 3.0,
-        questionKaz: '«Айдоста 47 теңге болды. Анасы оған 28 теңге берді. Айдоста барлығы қанша теңге болды?»',
+        questionKaz: '«Бекарыста 47 теңге болды. Анасы оған 28 теңге берді. Бекарыста барлығы қанша теңге болды?»',
         correctAnswer: '75',
         options: ['75 теңге', '65 теңге', '74 теңге', '70 теңге'],
         explanations: {
@@ -213,9 +213,9 @@ export function getTaskForLevel(level: 1 | 2 | 3 | 4): MathProblem {
         id: 'adapt-lvl-4',
         skillId: 'skill_word_problems',
         topicKaz: 'Екі таңбалы сандарды қосу (4-деңгей: Күрделі / Жанама)',
-        grade: 2,
+        grade: 4,
         difficulty: 4.0,
-        questionKaz: '«Айдоста 75 теңге болды. Оның бір бөлігін жұмсағаннан кейін 47 теңге қалды. Ол қанша теңге жұмсады?»',
+        questionKaz: '«Бекарыста 75 теңге болды. Оның бір бөлігін жұмсағаннан кейін 47 теңге қалды. Ол қанша теңге жұмсады?»',
         correctAnswer: '28',
         options: ['28 теңге', '38 теңге', '22 теңге', '18 теңге'],
         explanations: {

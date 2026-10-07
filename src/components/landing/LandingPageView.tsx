@@ -147,7 +147,7 @@ export function LandingPageView({ onStartPlatform, onNavigateToModule }: Landing
               onClick={handleStudentCabinet}
               className="px-4 py-2 rounded-2xl bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-200 border border-emerald-500/40 flex items-center gap-2 transition-all hover:scale-105 shadow-soft-xs"
             >
-              <User className="h-4 w-4 text-emerald-300" /> Оқушы Кабинеті (Айдос)
+              <User className="h-4 w-4 text-emerald-300" /> Оқушы Кабинеті (Бекарыс)
             </button>
           </div>
 
@@ -404,7 +404,7 @@ export function LandingPageView({ onStartPlatform, onNavigateToModule }: Landing
               Оқушының Жеке Кабинеті
             </h3>
             <p className="text-xs text-emerald-200 font-medium leading-relaxed">
-              «Сәлем, Айдос!», бүгінгі 5-қадамды маршрут (Сан құрамы ✓ ➔ Ондықты толықтыру ✓ ➔ Модельмен қосу), 7 күндік streak, XP жинау және badges жүйесі.
+              «Сәлем, Бекарыс!», бүгінгі 5-қадамды маршрут (Сан құрамы ✓ ➔ Ондықты толықтыру ✓ ➔ Модельмен қосу), 7 күндік streak, XP жинау және badges жүйесі.
             </p>
           </div>
 
@@ -412,7 +412,7 @@ export function LandingPageView({ onStartPlatform, onNavigateToModule }: Landing
             onClick={handleStudentCabinet}
             className="w-full rounded-2xl bg-emerald-500 hover:bg-emerald-600 text-white font-black text-xs py-3"
           >
-            Оқушы Кабинетіне Кіру (Айдос) ➔
+            Оқушы Кабинетіне Кіру (Бекарыс) ➔
           </Button>
         </Card>
 
